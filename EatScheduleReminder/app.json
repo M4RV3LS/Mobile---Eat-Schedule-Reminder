@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Jadwal Makan",
+    "slug": "EatScheduleReminder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "eatschedulereminder",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.eatschedule.reminder"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E07856",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.eatschedule.reminder"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "color": "#E07856"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "281c3ca5-83ef-4e78-a133-0efae43fbd3d"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.expo.dev)",
+      "PowerShell(npx expo install expo-notifications)",
+      "PowerShell(npx tsc --noEmit 2>&1)",
+      "PowerShell(npx expo export --platform android --dump-sourcemap 2>&1)"
+    ]
+  },
+  "enabledPlugins": {
+    "expo@claude-plugins-official": true
+  }
+}
